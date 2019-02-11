@@ -89,16 +89,17 @@ var checkExist = setInterval(function () {
 	// check if exists
 	if ($('.languageText').length) {
 		$(".languageText").each(function () {
-			var text = $(this).text();
-			if (text == '●JavaScript') {
+			var text = $(this).find('.language').text();
+			if (text == 'JavaScript') {
 				$(this).css('color', 'yellow');
-			} else if (text == '●PHP') {
+			} else if (text == 'PHP') {
 				$(this).css('color', '#4F5D95');
-			} else if (text == '●TypeScript') {
+			} else if (text == 'TypeScript') {
 				$(this).css('color', '#2b7489');
 			} else {
 				$(this).css('color', 'orange');
 			}
+			console.log($(this).find('.language').text());
 		});
 		clearInterval(checkExist);
 	}
