@@ -1,0 +1,98 @@
+html {
+	font-family: Roboto, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: lightskyblue;
+}
+
+#githubTable {
+	text-align: left;
+}
+
+#githubTable th,
+td {
+	padding: 10px;
+}
+
+#githubTable tr:nth-child(even) {
+	background: snow;
+	color: black;
+}
+
+.reposBox {
+	position: relative;
+	float: left;
+	min-height: 30vh;
+	padding: 10px;
+}
+
+#reposBoxHide {
+	display: none;
+}
+
+.innerReposBox {
+	min-height: 40vh;
+	background: snow;
+	border-radius: 5px;
+	padding: 5px;
+	word-break: break-word;
+	box-shadow: 0 0 30px #eee3e3;
+}
+
+.innerReposBox h3 {
+	float: left;
+}
+
+.innerReposBox img {
+	float: right;
+	height: 50px;
+	width: 50px;
+}
+
+.bottomReposBox {
+	position: absolute;
+	bottom: 15px;
+	width: 92%;
+	height: 10%;
+}
+
+.languageText {
+	float: left;
+}
+
+.language {
+	color: black !important;
+	float: left;
+}
+
+.languageBullet {
+	float: left;
+	margin-right: 3px;
+}
+
+.updateDate {
+	color: black;
+	float: right;
+}
+
+.urlIcon {
+	float: right;
+	color: rgb(0, 137, 255);
+	margin-left: 10px;
+}
+
+.showMore {
+	float: right;
+	border: none;
+	margin-right: 10px;
+	background-color: rgb(75, 158, 209);
+	color: snow;
+	border-radius: 3px;
+	cursor: pointer;
+}
