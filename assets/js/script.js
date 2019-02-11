@@ -64,11 +64,11 @@ function dateDifference(str) {
 
 function showMore() {
 	if (showCount == 0) {
-		$('#reposBoxHide').css('display', 'block');
+		$('.reposBoxHide').css('display', 'block');
 		$('.showMore').text('Show less');
 		showCount = 1;
 	} else {
-		$('#reposBoxHide').css('display', 'none');
+		$('.reposBoxHide').css('display', 'none');
 		$('.showMore').text('Show more..');
 		showCount = 0;
 	}
